@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zw/code/C_and_C++_Projects/Neural_Network/dataset.cpp
+dataset.hpp
+/Users/zw/code/C_and_C++_Projects/Neural_Network/dataset.hpp
+fstream
+-
+iostream
+-
+sstream
+-
+string
+-
+vector
+-
+
+/Users/zw/code/C_and_C++_Projects/Neural_Network/dataset.hpp
+iostream
+-
+vector
+-
+
+/Users/zw/code/C_and_C++_Projects/Neural_Network/main.cpp
+dataset.hpp
+/Users/zw/code/C_and_C++_Projects/Neural_Network/dataset.hpp
+fstream
+-
+iostream
+-
+
