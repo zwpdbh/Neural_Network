@@ -1,4 +1,4 @@
-"/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4674.29/CLion.app/Contents/bin/cmake/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/zw/code/C_and_C++_Projects/Neural_Network
+"/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4674.29/CLion.app/Contents/bin/cmake/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -G "CodeBlocks - Unix Makefiles" /Users/zw/code/C_and_C++_Projects/Neural_Network
 -- The C compiler identification is Clang 5.0.1
 -- The CXX compiler identification is Clang 5.0.1
 -- Check for working C compiler: /usr/local/opt/llvm/bin/clang

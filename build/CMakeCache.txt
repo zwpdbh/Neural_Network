@@ -282,8 +282,8 @@ CMAKE_GENERATOR:INTERNAL=Unix Makefiles
 CMAKE_GENERATOR_PLATFORM:INTERNAL=
 //Name of generator toolset.
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
-//Source directory with the top level CMakeLists.txt file for this
-// project
+//Source directory with the top _level CMakeLists.txt file for
+// this project
 CMAKE_HOME_DIRECTORY:INTERNAL=/Users/zw/code/C_and_C++_Projects/Neural_Network
 //ADVANCED property for variable: CMAKE_INSTALL_NAME_TOOL
 CMAKE_INSTALL_NAME_TOOL-ADVANCED:INTERNAL=1

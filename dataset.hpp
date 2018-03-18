@@ -4,7 +4,7 @@
 #include <iostream>
 #include <vector>
 
-namespace Neuralnetwork {
+namespace nn {
 
 class Dataset {
   private:
@@ -23,6 +23,6 @@ class Dataset {
     const int                               get_num_of_output_attribute() const;
     const int                               get_num_of_patterns() const;
 };
-} // namespace Neuralnetwork
+} // namespace nn
 
 #endif // !neural_netowrk_dataset_hpp

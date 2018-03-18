@@ -6,4 +6,9 @@ CMakeFiles/neural_network.dir/dataset.cpp.o: ../dataset.hpp
 
 CMakeFiles/neural_network.dir/main.cpp.o: ../dataset.hpp
 CMakeFiles/neural_network.dir/main.cpp.o: ../main.cpp
+CMakeFiles/neural_network.dir/main.cpp.o: ../neuralnetwork.hpp
+
+CMakeFiles/neural_network.dir/neuralnetwork.cpp.o: ../dataset.hpp
+CMakeFiles/neural_network.dir/neuralnetwork.cpp.o: ../neuralnetwork.cpp
+CMakeFiles/neural_network.dir/neuralnetwork.cpp.o: ../neuralnetwork.hpp
 

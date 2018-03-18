@@ -1,9 +1,10 @@
 #include "dataset.hpp"
+#include "neuralnetwork.hpp"
 #include <fstream>
-#include <iostream>
 
 using namespace std;
-using namespace Neuralnetwork;
+using namespace nn;
+
 
 int main(int argc, char* argv[]) {
     if (argc != 4) {
@@ -58,12 +59,33 @@ int main(int argc, char* argv[]) {
 
         // process data: load them into dataSet
         Dataset dataset(argv[2], argv[3]);
+        cout << "the settings for Dataset is: " << endl;
         cout << "the number of patterns is: " << dataset.get_num_of_patterns()
              << endl;
         cout << "the number of input attributes are: "
              << dataset.get_num_of_input_attribute() << endl;
         cout << "the number of output attributes are: "
              << dataset.get_num_of_output_attribute() << endl;
+
+        // train
+        nn::NeuralNetwork nn(num_of_inputLayerNeurons,
+                             num_of_hiddenLayerNeurons,
+                             num_of_outputLayerNeurons,
+                             learning_rate,
+                             momentum,
+                             trainning_criterion,
+                             7000);
+
+        cout << "\nthe settings for NN: " << endl;
+        cout << "num_of_inputLayerNeurons = " << nn.get_num_of_input_neurons() << endl;
+        cout << "num_of_hiddenLayerNeurons = " << nn.get_num_of_hidden_neurons() << endl;
+        cout << "num_of_outputLayerNeurons = " << nn.get_num_of_output_neurons() << endl;
+        cout << "learning_rate = " << nn.get_learning_rate() << endl;
+        cout << "momentum = " << nn.get_momentum() << endl;
+        cout << "trainning_criterion = " << nn.get_learning_criterion() << endl << endl;
+
+        nn.train(dataset);
+
     } else {
         std::cout << "can't open param.txt file to initialize neural network "
                      "structure, exit..."

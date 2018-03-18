@@ -7,7 +7,7 @@
 
 using namespace std;
 
-namespace Neuralnetwork {
+namespace nn {
 Dataset::Dataset(const ::string& input_filename,
                  const ::string& output_filename) {
 
@@ -77,4 +77,4 @@ const int Dataset::get_num_of_patterns() const {
     return this->num_of_patterns;
 }
 
-} // namespace Neuralnetwork
+} // namespace nn

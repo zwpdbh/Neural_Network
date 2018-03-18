@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+..//dataset.hpp
+iostream
+-
+vector
+-
+
 /Users/zw/code/C_and_C++_Projects/Neural_Network/dataset.cpp
 dataset.hpp
 /Users/zw/code/C_and_C++_Projects/Neural_Network/dataset.hpp
@@ -29,8 +35,22 @@ vector
 /Users/zw/code/C_and_C++_Projects/Neural_Network/main.cpp
 dataset.hpp
 /Users/zw/code/C_and_C++_Projects/Neural_Network/dataset.hpp
+neuralnetwork.hpp
+/Users/zw/code/C_and_C++_Projects/Neural_Network/neuralnetwork.hpp
 fstream
 -
-iostream
+
+/Users/zw/code/C_and_C++_Projects/Neural_Network/neuralnetwork.cpp
+neuralnetwork.hpp
+/Users/zw/code/C_and_C++_Projects/Neural_Network/neuralnetwork.hpp
+math.h
+-
+stdlib.h
+-
+
+/Users/zw/code/C_and_C++_Projects/Neural_Network/neuralnetwork.hpp
+dataset.hpp
+-
+vector
 -
 

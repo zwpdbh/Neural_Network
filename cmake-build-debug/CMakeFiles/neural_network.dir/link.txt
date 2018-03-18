@@ -1,1 +1,1 @@
-/usr/local/opt/llvm/bin/clang++   -std=c++11 -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/neural_network.dir/main.cpp.o CMakeFiles/neural_network.dir/dataset.cpp.o  -o ../bin/neural_network 
+/usr/local/opt/llvm/bin/clang++   -std=c++11 -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/neural_network.dir/main.cpp.o CMakeFiles/neural_network.dir/dataset.cpp.o CMakeFiles/neural_network.dir/neuralnetwork.cpp.o  -o ../bin/neural_network 

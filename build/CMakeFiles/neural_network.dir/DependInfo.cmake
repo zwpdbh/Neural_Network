@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/zw/code/C_and_C++_Projects/Neural_Network/dataset.cpp" "/Users/zw/code/C_and_C++_Projects/Neural_Network/build/CMakeFiles/neural_network.dir/dataset.cpp.o"
   "/Users/zw/code/C_and_C++_Projects/Neural_Network/main.cpp" "/Users/zw/code/C_and_C++_Projects/Neural_Network/build/CMakeFiles/neural_network.dir/main.cpp.o"
+  "/Users/zw/code/C_and_C++_Projects/Neural_Network/neuralnetwork.cpp" "/Users/zw/code/C_and_C++_Projects/Neural_Network/build/CMakeFiles/neural_network.dir/neuralnetwork.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 

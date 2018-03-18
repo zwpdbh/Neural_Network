@@ -91,6 +91,12 @@
 		<Unit filename="/Users/zw/code/C_and_C++_Projects/Neural_Network/main.cpp">
 			<Option target="neural_network"/>
 		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Neural_Network/neuralnetwork.cpp">
+			<Option target="neural_network"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Neural_Network/neuralnetwork.hpp">
+			<Option target="neural_network"/>
+		</Unit>
 		<Unit filename="/Users/zw/code/C_and_C++_Projects/Neural_Network/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

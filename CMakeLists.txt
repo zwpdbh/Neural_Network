@@ -24,4 +24,6 @@ add_executable(
         main.cpp
         dataset.cpp
         dataset.hpp
+        neuralnetwork.hpp
+        neuralnetwork.cpp
 )

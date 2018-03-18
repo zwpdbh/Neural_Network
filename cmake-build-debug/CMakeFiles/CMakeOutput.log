@@ -28,31 +28,31 @@ The CXX compiler identification is Clang, found in "/Users/zw/code/C_and_C++_Pro
 Determining if the C compiler works passed with the following output:
 Change Dir: /Users/zw/code/C_and_C++_Projects/Neural_Network/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_576de/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_576de.dir/build.make CMakeFiles/cmTC_576de.dir/build
-Building C object CMakeFiles/cmTC_576de.dir/testCCompiler.c.o
-/usr/local/opt/llvm/bin/clang    -o CMakeFiles/cmTC_576de.dir/testCCompiler.c.o   -c /Users/zw/code/C_and_C++_Projects/Neural_Network/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_576de
-"/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4674.29/CLion.app/Contents/bin/cmake/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_576de.dir/link.txt --verbose=1
-/usr/local/opt/llvm/bin/clang   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_576de.dir/testCCompiler.c.o  -o cmTC_576de 
+Run Build Command:"/usr/bin/make" "cmTC_aff75/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_aff75.dir/build.make CMakeFiles/cmTC_aff75.dir/build
+Building C object CMakeFiles/cmTC_aff75.dir/testCCompiler.c.o
+/usr/local/opt/llvm/bin/clang    -o CMakeFiles/cmTC_aff75.dir/testCCompiler.c.o   -c /Users/zw/code/C_and_C++_Projects/Neural_Network/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_aff75
+"/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4674.29/CLion.app/Contents/bin/cmake/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_aff75.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_aff75.dir/testCCompiler.c.o  -o cmTC_aff75 
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /Users/zw/code/C_and_C++_Projects/Neural_Network/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ef29d/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ef29d.dir/build.make CMakeFiles/cmTC_ef29d.dir/build
-Building C object CMakeFiles/cmTC_ef29d.dir/CMakeCCompilerABI.c.o
-/usr/local/opt/llvm/bin/clang    -o CMakeFiles/cmTC_ef29d.dir/CMakeCCompilerABI.c.o   -c "/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4674.29/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/CMakeCCompilerABI.c"
-Linking C executable cmTC_ef29d
-"/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4674.29/CLion.app/Contents/bin/cmake/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_ef29d.dir/link.txt --verbose=1
-/usr/local/opt/llvm/bin/clang   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_ef29d.dir/CMakeCCompilerABI.c.o  -o cmTC_ef29d 
+Run Build Command:"/usr/bin/make" "cmTC_8e1e9/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_8e1e9.dir/build.make CMakeFiles/cmTC_8e1e9.dir/build
+Building C object CMakeFiles/cmTC_8e1e9.dir/CMakeCCompilerABI.c.o
+/usr/local/opt/llvm/bin/clang    -o CMakeFiles/cmTC_8e1e9.dir/CMakeCCompilerABI.c.o   -c "/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4674.29/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/CMakeCCompilerABI.c"
+Linking C executable cmTC_8e1e9
+"/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4674.29/CLion.app/Contents/bin/cmake/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_8e1e9.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_8e1e9.dir/CMakeCCompilerABI.c.o  -o cmTC_8e1e9 
 clang version 5.0.1 (tags/RELEASE_501/final)
 Target: x86_64-apple-darwin17.4.0
 Thread model: posix
 InstalledDir: /usr/local/opt/llvm/bin
 Found CUDA installation: /usr/local/cuda, version 8.0
- "/usr/bin/ld" -demangle -lto_library /usr/local/Cellar/llvm/5.0.1/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_ef29d -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_ef29d.dir/CMakeCCompilerABI.c.o -lSystem /usr/local/Cellar/llvm/5.0.1/lib/clang/5.0.1/lib/darwin/libclang_rt.osx.a
+ "/usr/bin/ld" -demangle -lto_library /usr/local/Cellar/llvm/5.0.1/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_8e1e9 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_8e1e9.dir/CMakeCCompilerABI.c.o -lSystem /usr/local/Cellar/llvm/5.0.1/lib/clang/5.0.1/lib/darwin/libclang_rt.osx.a
 @(#)PROGRAM:ld  PROJECT:ld64-305
 configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
 Library search paths:
@@ -67,19 +67,19 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /Users/zw/code/C_and_C++_Projects/Neural_Network/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_ef29d/fast"]
-  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ef29d.dir/build.make CMakeFiles/cmTC_ef29d.dir/build]
-  ignore line: [Building C object CMakeFiles/cmTC_ef29d.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/local/opt/llvm/bin/clang    -o CMakeFiles/cmTC_ef29d.dir/CMakeCCompilerABI.c.o   -c "/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4674.29/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/CMakeCCompilerABI.c"]
-  ignore line: [Linking C executable cmTC_ef29d]
-  ignore line: ["/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4674.29/CLion.app/Contents/bin/cmake/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_ef29d.dir/link.txt --verbose=1]
-  ignore line: [/usr/local/opt/llvm/bin/clang   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_ef29d.dir/CMakeCCompilerABI.c.o  -o cmTC_ef29d ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_8e1e9/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_8e1e9.dir/build.make CMakeFiles/cmTC_8e1e9.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_8e1e9.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/local/opt/llvm/bin/clang    -o CMakeFiles/cmTC_8e1e9.dir/CMakeCCompilerABI.c.o   -c "/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4674.29/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/CMakeCCompilerABI.c"]
+  ignore line: [Linking C executable cmTC_8e1e9]
+  ignore line: ["/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4674.29/CLion.app/Contents/bin/cmake/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_8e1e9.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/opt/llvm/bin/clang   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_8e1e9.dir/CMakeCCompilerABI.c.o  -o cmTC_8e1e9 ]
   ignore line: [clang version 5.0.1 (tags/RELEASE_501/final)]
   ignore line: [Target: x86_64-apple-darwin17.4.0]
   ignore line: [Thread model: posix]
   ignore line: [InstalledDir: /usr/local/opt/llvm/bin]
   ignore line: [Found CUDA installation: /usr/local/cuda, version 8.0]
-  link line: [ "/usr/bin/ld" -demangle -lto_library /usr/local/Cellar/llvm/5.0.1/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_ef29d -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_ef29d.dir/CMakeCCompilerABI.c.o -lSystem /usr/local/Cellar/llvm/5.0.1/lib/clang/5.0.1/lib/darwin/libclang_rt.osx.a]
+  link line: [ "/usr/bin/ld" -demangle -lto_library /usr/local/Cellar/llvm/5.0.1/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_8e1e9 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_8e1e9.dir/CMakeCCompilerABI.c.o -lSystem /usr/local/Cellar/llvm/5.0.1/lib/clang/5.0.1/lib/darwin/libclang_rt.osx.a]
     arg [/usr/bin/ld] ==> ignore
     arg [-demangle] ==> ignore
     arg [-lto_library] ==> ignore, skip following value
@@ -90,11 +90,11 @@ Parsed C implicit link information from above output:
     arg [-macosx_version_min] ==> ignore
     arg [10.13.0] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_ef29d] ==> ignore
+    arg [cmTC_8e1e9] ==> ignore
     arg [-search_paths_first] ==> ignore
     arg [-headerpad_max_install_names] ==> ignore
     arg [-v] ==> ignore
-    arg [CMakeFiles/cmTC_ef29d.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_8e1e9.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lSystem] ==> lib [System]
     arg [/usr/local/Cellar/llvm/5.0.1/lib/clang/5.0.1/lib/darwin/libclang_rt.osx.a] ==> lib [/usr/local/Cellar/llvm/5.0.1/lib/clang/5.0.1/lib/darwin/libclang_rt.osx.a]
   Library search paths: [;/usr/lib;/usr/local/lib]
@@ -115,13 +115,13 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /Users/zw/code/C_and_C++_Projects/Neural_Network/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f519f/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f519f.dir/build.make CMakeFiles/cmTC_f519f.dir/build
-Building C object CMakeFiles/cmTC_f519f.dir/feature_tests.c.o
-/usr/local/opt/llvm/bin/clang   -std=c11 -o CMakeFiles/cmTC_f519f.dir/feature_tests.c.o   -c /Users/zw/code/C_and_C++_Projects/Neural_Network/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_f519f
-"/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4674.29/CLion.app/Contents/bin/cmake/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_f519f.dir/link.txt --verbose=1
-/usr/local/opt/llvm/bin/clang   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f519f.dir/feature_tests.c.o  -o cmTC_f519f 
+Run Build Command:"/usr/bin/make" "cmTC_58759/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_58759.dir/build.make CMakeFiles/cmTC_58759.dir/build
+Building C object CMakeFiles/cmTC_58759.dir/feature_tests.c.o
+/usr/local/opt/llvm/bin/clang   -std=c11 -o CMakeFiles/cmTC_58759.dir/feature_tests.c.o   -c /Users/zw/code/C_and_C++_Projects/Neural_Network/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_58759
+"/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4674.29/CLion.app/Contents/bin/cmake/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_58759.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_58759.dir/feature_tests.c.o  -o cmTC_58759 
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -133,13 +133,13 @@ Linking C executable cmTC_f519f
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /Users/zw/code/C_and_C++_Projects/Neural_Network/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1ee84/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1ee84.dir/build.make CMakeFiles/cmTC_1ee84.dir/build
-Building C object CMakeFiles/cmTC_1ee84.dir/feature_tests.c.o
-/usr/local/opt/llvm/bin/clang   -std=c99 -o CMakeFiles/cmTC_1ee84.dir/feature_tests.c.o   -c /Users/zw/code/C_and_C++_Projects/Neural_Network/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_1ee84
-"/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4674.29/CLion.app/Contents/bin/cmake/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_1ee84.dir/link.txt --verbose=1
-/usr/local/opt/llvm/bin/clang   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1ee84.dir/feature_tests.c.o  -o cmTC_1ee84 
+Run Build Command:"/usr/bin/make" "cmTC_b6f7e/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b6f7e.dir/build.make CMakeFiles/cmTC_b6f7e.dir/build
+Building C object CMakeFiles/cmTC_b6f7e.dir/feature_tests.c.o
+/usr/local/opt/llvm/bin/clang   -std=c99 -o CMakeFiles/cmTC_b6f7e.dir/feature_tests.c.o   -c /Users/zw/code/C_and_C++_Projects/Neural_Network/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_b6f7e
+"/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4674.29/CLion.app/Contents/bin/cmake/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_b6f7e.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b6f7e.dir/feature_tests.c.o  -o cmTC_b6f7e 
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -151,13 +151,13 @@ Linking C executable cmTC_1ee84
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /Users/zw/code/C_and_C++_Projects/Neural_Network/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_58947/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_58947.dir/build.make CMakeFiles/cmTC_58947.dir/build
-Building C object CMakeFiles/cmTC_58947.dir/feature_tests.c.o
-/usr/local/opt/llvm/bin/clang   -std=c90 -o CMakeFiles/cmTC_58947.dir/feature_tests.c.o   -c /Users/zw/code/C_and_C++_Projects/Neural_Network/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_58947
-"/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4674.29/CLion.app/Contents/bin/cmake/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_58947.dir/link.txt --verbose=1
-/usr/local/opt/llvm/bin/clang   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_58947.dir/feature_tests.c.o  -o cmTC_58947 
+Run Build Command:"/usr/bin/make" "cmTC_cd1eb/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_cd1eb.dir/build.make CMakeFiles/cmTC_cd1eb.dir/build
+Building C object CMakeFiles/cmTC_cd1eb.dir/feature_tests.c.o
+/usr/local/opt/llvm/bin/clang   -std=c90 -o CMakeFiles/cmTC_cd1eb.dir/feature_tests.c.o   -c /Users/zw/code/C_and_C++_Projects/Neural_Network/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_cd1eb
+"/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4674.29/CLion.app/Contents/bin/cmake/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_cd1eb.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_cd1eb.dir/feature_tests.c.o  -o cmTC_cd1eb 
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -167,31 +167,31 @@ Linking C executable cmTC_58947
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /Users/zw/code/C_and_C++_Projects/Neural_Network/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c82d1/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c82d1.dir/build.make CMakeFiles/cmTC_c82d1.dir/build
-Building CXX object CMakeFiles/cmTC_c82d1.dir/testCXXCompiler.cxx.o
-/usr/local/opt/llvm/bin/clang++     -o CMakeFiles/cmTC_c82d1.dir/testCXXCompiler.cxx.o -c /Users/zw/code/C_and_C++_Projects/Neural_Network/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_c82d1
-"/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4674.29/CLion.app/Contents/bin/cmake/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_c82d1.dir/link.txt --verbose=1
-/usr/local/opt/llvm/bin/clang++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c82d1.dir/testCXXCompiler.cxx.o  -o cmTC_c82d1 
+Run Build Command:"/usr/bin/make" "cmTC_a9d60/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a9d60.dir/build.make CMakeFiles/cmTC_a9d60.dir/build
+Building CXX object CMakeFiles/cmTC_a9d60.dir/testCXXCompiler.cxx.o
+/usr/local/opt/llvm/bin/clang++     -o CMakeFiles/cmTC_a9d60.dir/testCXXCompiler.cxx.o -c /Users/zw/code/C_and_C++_Projects/Neural_Network/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_a9d60
+"/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4674.29/CLion.app/Contents/bin/cmake/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_a9d60.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a9d60.dir/testCXXCompiler.cxx.o  -o cmTC_a9d60 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /Users/zw/code/C_and_C++_Projects/Neural_Network/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_acd51/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_acd51.dir/build.make CMakeFiles/cmTC_acd51.dir/build
-Building CXX object CMakeFiles/cmTC_acd51.dir/CMakeCXXCompilerABI.cpp.o
-/usr/local/opt/llvm/bin/clang++     -o CMakeFiles/cmTC_acd51.dir/CMakeCXXCompilerABI.cpp.o -c "/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4674.29/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp"
-Linking CXX executable cmTC_acd51
-"/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4674.29/CLion.app/Contents/bin/cmake/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_acd51.dir/link.txt --verbose=1
-/usr/local/opt/llvm/bin/clang++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_acd51.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_acd51 
+Run Build Command:"/usr/bin/make" "cmTC_d5847/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d5847.dir/build.make CMakeFiles/cmTC_d5847.dir/build
+Building CXX object CMakeFiles/cmTC_d5847.dir/CMakeCXXCompilerABI.cpp.o
+/usr/local/opt/llvm/bin/clang++     -o CMakeFiles/cmTC_d5847.dir/CMakeCXXCompilerABI.cpp.o -c "/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4674.29/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp"
+Linking CXX executable cmTC_d5847
+"/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4674.29/CLion.app/Contents/bin/cmake/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_d5847.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_d5847.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_d5847 
 clang version 5.0.1 (tags/RELEASE_501/final)
 Target: x86_64-apple-darwin17.4.0
 Thread model: posix
 InstalledDir: /usr/local/opt/llvm/bin
 Found CUDA installation: /usr/local/cuda, version 8.0
- "/usr/bin/ld" -demangle -lto_library /usr/local/Cellar/llvm/5.0.1/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_acd51 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_acd51.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /usr/local/Cellar/llvm/5.0.1/lib/clang/5.0.1/lib/darwin/libclang_rt.osx.a
+ "/usr/bin/ld" -demangle -lto_library /usr/local/Cellar/llvm/5.0.1/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_d5847 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_d5847.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /usr/local/Cellar/llvm/5.0.1/lib/clang/5.0.1/lib/darwin/libclang_rt.osx.a
 @(#)PROGRAM:ld  PROJECT:ld64-305
 configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
 Library search paths:
@@ -206,19 +206,19 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /Users/zw/code/C_and_C++_Projects/Neural_Network/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_acd51/fast"]
-  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_acd51.dir/build.make CMakeFiles/cmTC_acd51.dir/build]
-  ignore line: [Building CXX object CMakeFiles/cmTC_acd51.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/local/opt/llvm/bin/clang++     -o CMakeFiles/cmTC_acd51.dir/CMakeCXXCompilerABI.cpp.o -c "/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4674.29/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp"]
-  ignore line: [Linking CXX executable cmTC_acd51]
-  ignore line: ["/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4674.29/CLion.app/Contents/bin/cmake/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_acd51.dir/link.txt --verbose=1]
-  ignore line: [/usr/local/opt/llvm/bin/clang++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_acd51.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_acd51 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_d5847/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d5847.dir/build.make CMakeFiles/cmTC_d5847.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_d5847.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/local/opt/llvm/bin/clang++     -o CMakeFiles/cmTC_d5847.dir/CMakeCXXCompilerABI.cpp.o -c "/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4674.29/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp"]
+  ignore line: [Linking CXX executable cmTC_d5847]
+  ignore line: ["/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4674.29/CLion.app/Contents/bin/cmake/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_d5847.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/opt/llvm/bin/clang++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_d5847.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_d5847 ]
   ignore line: [clang version 5.0.1 (tags/RELEASE_501/final)]
   ignore line: [Target: x86_64-apple-darwin17.4.0]
   ignore line: [Thread model: posix]
   ignore line: [InstalledDir: /usr/local/opt/llvm/bin]
   ignore line: [Found CUDA installation: /usr/local/cuda, version 8.0]
-  link line: [ "/usr/bin/ld" -demangle -lto_library /usr/local/Cellar/llvm/5.0.1/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_acd51 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_acd51.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /usr/local/Cellar/llvm/5.0.1/lib/clang/5.0.1/lib/darwin/libclang_rt.osx.a]
+  link line: [ "/usr/bin/ld" -demangle -lto_library /usr/local/Cellar/llvm/5.0.1/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_d5847 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_d5847.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /usr/local/Cellar/llvm/5.0.1/lib/clang/5.0.1/lib/darwin/libclang_rt.osx.a]
     arg [/usr/bin/ld] ==> ignore
     arg [-demangle] ==> ignore
     arg [-lto_library] ==> ignore, skip following value
@@ -229,11 +229,11 @@ Parsed CXX implicit link information from above output:
     arg [-macosx_version_min] ==> ignore
     arg [10.13.0] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_acd51] ==> ignore
+    arg [cmTC_d5847] ==> ignore
     arg [-search_paths_first] ==> ignore
     arg [-headerpad_max_install_names] ==> ignore
     arg [-v] ==> ignore
-    arg [CMakeFiles/cmTC_acd51.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_d5847.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lc++] ==> lib [c++]
     arg [-lSystem] ==> lib [System]
     arg [/usr/local/Cellar/llvm/5.0.1/lib/clang/5.0.1/lib/darwin/libclang_rt.osx.a] ==> lib [/usr/local/Cellar/llvm/5.0.1/lib/clang/5.0.1/lib/darwin/libclang_rt.osx.a]
@@ -255,13 +255,13 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: /Users/zw/code/C_and_C++_Projects/Neural_Network/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ac20d/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ac20d.dir/build.make CMakeFiles/cmTC_ac20d.dir/build
-Building CXX object CMakeFiles/cmTC_ac20d.dir/feature_tests.cxx.o
-/usr/local/opt/llvm/bin/clang++    -std=c++1z -o CMakeFiles/cmTC_ac20d.dir/feature_tests.cxx.o -c /Users/zw/code/C_and_C++_Projects/Neural_Network/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_ac20d
-"/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4674.29/CLion.app/Contents/bin/cmake/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_ac20d.dir/link.txt --verbose=1
-/usr/local/opt/llvm/bin/clang++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ac20d.dir/feature_tests.cxx.o  -o cmTC_ac20d 
+Run Build Command:"/usr/bin/make" "cmTC_5546a/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_5546a.dir/build.make CMakeFiles/cmTC_5546a.dir/build
+Building CXX object CMakeFiles/cmTC_5546a.dir/feature_tests.cxx.o
+/usr/local/opt/llvm/bin/clang++    -std=c++1z -o CMakeFiles/cmTC_5546a.dir/feature_tests.cxx.o -c /Users/zw/code/C_and_C++_Projects/Neural_Network/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_5546a
+"/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4674.29/CLion.app/Contents/bin/cmake/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_5546a.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_5546a.dir/feature_tests.cxx.o  -o cmTC_5546a 
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -326,13 +326,13 @@ Linking CXX executable cmTC_ac20d
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /Users/zw/code/C_and_C++_Projects/Neural_Network/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3f11e/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_3f11e.dir/build.make CMakeFiles/cmTC_3f11e.dir/build
-Building CXX object CMakeFiles/cmTC_3f11e.dir/feature_tests.cxx.o
-/usr/local/opt/llvm/bin/clang++    -std=c++14 -o CMakeFiles/cmTC_3f11e.dir/feature_tests.cxx.o -c /Users/zw/code/C_and_C++_Projects/Neural_Network/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_3f11e
-"/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4674.29/CLion.app/Contents/bin/cmake/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_3f11e.dir/link.txt --verbose=1
-/usr/local/opt/llvm/bin/clang++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3f11e.dir/feature_tests.cxx.o  -o cmTC_3f11e 
+Run Build Command:"/usr/bin/make" "cmTC_0b26d/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0b26d.dir/build.make CMakeFiles/cmTC_0b26d.dir/build
+Building CXX object CMakeFiles/cmTC_0b26d.dir/feature_tests.cxx.o
+/usr/local/opt/llvm/bin/clang++    -std=c++14 -o CMakeFiles/cmTC_0b26d.dir/feature_tests.cxx.o -c /Users/zw/code/C_and_C++_Projects/Neural_Network/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_0b26d
+"/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4674.29/CLion.app/Contents/bin/cmake/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_0b26d.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0b26d.dir/feature_tests.cxx.o  -o cmTC_0b26d 
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -397,13 +397,13 @@ Linking CXX executable cmTC_3f11e
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /Users/zw/code/C_and_C++_Projects/Neural_Network/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7a157/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7a157.dir/build.make CMakeFiles/cmTC_7a157.dir/build
-Building CXX object CMakeFiles/cmTC_7a157.dir/feature_tests.cxx.o
-/usr/local/opt/llvm/bin/clang++    -std=c++11 -o CMakeFiles/cmTC_7a157.dir/feature_tests.cxx.o -c /Users/zw/code/C_and_C++_Projects/Neural_Network/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_7a157
-"/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4674.29/CLion.app/Contents/bin/cmake/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_7a157.dir/link.txt --verbose=1
-/usr/local/opt/llvm/bin/clang++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7a157.dir/feature_tests.cxx.o  -o cmTC_7a157 
+Run Build Command:"/usr/bin/make" "cmTC_b30a9/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b30a9.dir/build.make CMakeFiles/cmTC_b30a9.dir/build
+Building CXX object CMakeFiles/cmTC_b30a9.dir/feature_tests.cxx.o
+/usr/local/opt/llvm/bin/clang++    -std=c++11 -o CMakeFiles/cmTC_b30a9.dir/feature_tests.cxx.o -c /Users/zw/code/C_and_C++_Projects/Neural_Network/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_b30a9
+"/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4674.29/CLion.app/Contents/bin/cmake/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_b30a9.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b30a9.dir/feature_tests.cxx.o  -o cmTC_b30a9 
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -468,13 +468,13 @@ Linking CXX executable cmTC_7a157
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /Users/zw/code/C_and_C++_Projects/Neural_Network/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a3cf4/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a3cf4.dir/build.make CMakeFiles/cmTC_a3cf4.dir/build
-Building CXX object CMakeFiles/cmTC_a3cf4.dir/feature_tests.cxx.o
-/usr/local/opt/llvm/bin/clang++    -std=c++98 -o CMakeFiles/cmTC_a3cf4.dir/feature_tests.cxx.o -c /Users/zw/code/C_and_C++_Projects/Neural_Network/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_a3cf4
-"/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4674.29/CLion.app/Contents/bin/cmake/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_a3cf4.dir/link.txt --verbose=1
-/usr/local/opt/llvm/bin/clang++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a3cf4.dir/feature_tests.cxx.o  -o cmTC_a3cf4 
+Run Build Command:"/usr/bin/make" "cmTC_2fd9a/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_2fd9a.dir/build.make CMakeFiles/cmTC_2fd9a.dir/build
+Building CXX object CMakeFiles/cmTC_2fd9a.dir/feature_tests.cxx.o
+/usr/local/opt/llvm/bin/clang++    -std=c++98 -o CMakeFiles/cmTC_2fd9a.dir/feature_tests.cxx.o -c /Users/zw/code/C_and_C++_Projects/Neural_Network/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_2fd9a
+"/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4674.29/CLion.app/Contents/bin/cmake/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_2fd9a.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2fd9a.dir/feature_tests.cxx.o  -o cmTC_2fd9a 
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
